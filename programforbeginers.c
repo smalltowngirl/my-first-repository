@@ -5,7 +5,9 @@ int add(int x, int y) {
 	return z;
 }
 int main() {
-	int z=add(2,5);	
+	int x, y;
+	scanf("%d%d", &x, &y); 
+	int z=add(x, y);	
 	printf("%d\n",z);
 }
 	
